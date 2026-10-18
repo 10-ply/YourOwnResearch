@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epistemegraph-backend"
+version = "0.1.0"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "duckdb>=0.8.0",
+    "pydantic>=2.0",
+    "requests>=2.28.0",
+    "pytest>=7.0.0"
+]
